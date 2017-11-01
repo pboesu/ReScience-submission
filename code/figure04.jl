@@ -1,5 +1,6 @@
 include("WY94.jl")
 
+srand(20171101)
 k2 = 100
 K2=[0.5,1.5].*k2
 K = logspace(2,3,8)

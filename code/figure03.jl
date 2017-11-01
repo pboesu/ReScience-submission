@@ -1,5 +1,6 @@
 include("WY94.jl")
 
+srand(20171101)
 R = linspace(0.0, 100.0, 15)
 out = zeros((length(R), 5))
 for i in eachindex(R)
